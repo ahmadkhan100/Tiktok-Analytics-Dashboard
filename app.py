@@ -4,6 +4,7 @@ from tiktok_data_collector import collect_tiktok_data
 from data_processor import process_data
 from visualization import create_visualization
 import pandas as pd
+import numpy as np
 
 # Set the title of the dashboard
 st.title('TikTok Analytics Dashboard')
